@@ -24,7 +24,8 @@ footer {
   text-align: center; }
   /* line 15, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
   #karaoke-panel #karaoke-lyrics {
-    margin: 50px auto;
+    margin-top: 0px;
+	margin-bottom: 20px;
     height: 400px;
     overflow: hidden; }
     /* line 20, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
@@ -36,11 +37,12 @@ footer {
       color: #74898b; }
       /* line 27, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
       #karaoke-panel #karaoke-lyrics p.line:first-child {
-        margin-top: 56px; }
+        margin-top: 0px; }
       /* line 30, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
       #karaoke-panel #karaoke-lyrics p.line span.word {
         transition: all linear 0.5s; }
         /* line 33, /Users/Jake/dev/karaoke-js/source/stylesheets/karaoke.css.sass */
         #karaoke-panel #karaoke-lyrics p.line span.word.active {
           color: #8e44ad;
+		  font-weight: bold;
           text-decoration: underline; }
